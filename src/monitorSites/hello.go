@@ -51,10 +51,6 @@ func leComando() int {
 
 func iniciarMonitoramento() {
 	sites := retornarSitesArquivo()
-	// sites
-	// if sites.1 <= 0 {
-	// 	os.Exit(0)
-	// }
 
 	for i := 0; i <= _repeticoes; i++ {
 		for j, site := range sites {
